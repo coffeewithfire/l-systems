@@ -2,9 +2,9 @@ import turtle
 
 axiom = 'F+F+F+F'
 mod = {'+': '+',
-             '-': '-',
-             'f': 'f',
-             'F': 'F+F-f-F+F'}
+       '-': '-',
+       'f': 'f',
+       'F': 'F+F-f-F+F'}
 
 for _ in range(3):
     axiom = axiom.translate(str.maketrans(mod))
